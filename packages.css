@@ -1,0 +1,13 @@
+body{
+    background-image: url("");
+}
+
+.heading {
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.heading span{
+    color: red;
+}
+
