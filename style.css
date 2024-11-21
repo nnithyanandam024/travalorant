@@ -5,6 +5,11 @@
     font-family: 'Poppins';
 }
 
+body {
+    background-image: url(destinations/Background-Travalorant.jpg);
+    background-size: cover;
+}
+
 #menu {
     background-color: #e3e3e3;
     position: fixed;
@@ -12,25 +17,36 @@
     top: 0;
     right: 0;
     left: 0;
-    padding: 25px;
+    padding: 10px;
     list-style: none;
     align-items: center;
     backdrop-filter: blur(50px);
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0;
 
 }
 
 #menu a{
     text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    padding-right: 40px;
+}
+
+
+#menu a:hover {
+    color: red;
 }
 
 .login a{
     right: 20px;
     padding-top: 8px;
     padding: 10px;
+    padding-right: 15px;
     position: absolute;
     height: 7%;
-    top: 1%;
+    top: 13%;
     font-size: 20px;
     color: black;
     font-family: fantasy;
@@ -63,7 +79,7 @@
 .content h1{
     font-size: 95px;
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 140px;
 }
 
 .content a{
@@ -73,6 +89,9 @@
     border: 2px solid #fff;
     padding: 15px 25px;
     border-radius: 50px;
+    position: absolute;
+    top: 600px;
+    right: 690px;
 
 }
 
@@ -88,17 +107,4 @@
     z-index: -1;
 }
 
-.logo p{
-    left: 20px;
-    position: absolute;
-    height: 7%;
-    top: 3%;
-    font-size: 20px;
-    color: #fff;
-    font-family: fantasy;
-}
-
-.logo p:hover{
-    color: red;
-}
 

@@ -1,0 +1,72 @@
+body {
+    background-image: url(destinations/compass-5137269.jpg);
+    background-size: cover;
+    opacity: 20px;
+}
+
+#menu {
+    background-color: #e3e3e3;
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    list-style: none;
+    align-items: center;
+    backdrop-filter: blur(50px);
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+#menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    padding-right: 40px;
+}
+
+#menu a:hover {
+    color: red;
+}
+
+.info h2{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+.form {
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    top: 250px;
+    border: 2px solid #fff;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form p {
+    font-size: large;
+    font-family: fantasy;
+}
+
+input {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 200px;
+}
+
+button {
+    position: absolute;
+    left: 95px;
+    bottom: 20px;
+}
+

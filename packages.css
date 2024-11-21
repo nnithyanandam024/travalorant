@@ -13,6 +13,37 @@ body{
     color: red;
 }
 
+
+#menu {
+    background-color: #e3e3e3;
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    list-style: none;
+    align-items: center;
+    backdrop-filter: blur(50px);
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+#menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    padding-right: 40px;
+
+}
+
+
+#menu a:hover {
+    color: red;
+}
+
 .def
 {
     display: grid;
@@ -21,6 +52,7 @@ body{
 
 .image {
     border-radius: 20px;
+    margin-top: 70px;
 }
 
 .head {
@@ -35,6 +67,7 @@ body{
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 2px;
+    top: 90px;
 }
 
 .kerala {
@@ -45,7 +78,7 @@ body{
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 2px;
-    top: 530px;
+    top: 590px;
 }
 
 .dubai {
@@ -56,7 +89,7 @@ body{
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 2px;
-    top: 950px;
+    top: 1080px;
 }
 
 .andaman {
@@ -67,7 +100,7 @@ body{
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 2px;
-    top: 1370px;
+    top: 1570px;
 }
 
 .australia 
@@ -79,7 +112,7 @@ body{
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 2px;
-    top: 1800px;
+    top: 2070px;
 }
 
 .head {
